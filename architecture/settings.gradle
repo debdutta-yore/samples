@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ArchitectureSamples"
 include ':app'
+include ':core'
