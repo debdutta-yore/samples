@@ -1,15 +1,15 @@
 package com.yore.samples.architecture
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Observer
-import androidx.navigation.fragment.findNavController
+import androidx.lifecycle.observe
+import androidx.navigation.Navigation
 import com.yore.samples.architecture.databinding.FragmentSplashBinding
+import com.yore.samples.core.Page
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -34,9 +34,17 @@ class SplashFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding?.viewmodel = viewModel
+
+        viewModel.notifyNavigation.observe(viewLifecycleOwner){
+            when(it.getContentIfNotHandled()){
+                Page.HOME->Navigation.findNavController(view).navigate(R.id.action_splashFragment_to_homeFragment)
+            }
+        }
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
+        viewModel.notifyNavigation.removeObservers(viewLifecycleOwner)
+        binding = null
     }
 }

@@ -1,4 +1,4 @@
-package com.yore.samples.architecture
+package com.yore.samples.core
 
 class Events<out T>(private val content: T) {
     private var hasBeenHandled = false

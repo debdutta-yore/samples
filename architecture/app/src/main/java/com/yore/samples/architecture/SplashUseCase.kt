@@ -1,5 +1,8 @@
 package com.yore.samples.architecture
 
+import com.yore.samples.core.Action
+import com.yore.samples.core.Command
+import com.yore.samples.core.Page
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -14,7 +17,7 @@ class SplashUseCase @Inject constructor(
         emit(Command(Action.LOADING))
         delay(2000)
         emit(Command(Action.LOADING_STOP))
-        delay(300)
+        delay(1000)
         emit(Command(Action.NAVIGATE, Page.HOME))
     }
 
