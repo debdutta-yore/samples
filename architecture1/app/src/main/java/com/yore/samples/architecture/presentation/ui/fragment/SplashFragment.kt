@@ -1,4 +1,4 @@
-package com.yore.samples.architecture
+package com.yore.samples.architecture.presentation.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,8 +8,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
 import androidx.navigation.Navigation
+import com.yore.samples.architecture.R
+import com.yore.samples.architecture.presentation.ui.viewmodel.SplashViewModel
 import com.yore.samples.architecture.databinding.FragmentSplashBinding
-import com.yore.samples.core.Page
+import com.yore.samples.core.common.Page
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

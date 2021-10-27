@@ -1,4 +1,4 @@
-package com.yore.samples.core
+package com.yore.samples.core.common
 
 data class Command(
     val action: Action,

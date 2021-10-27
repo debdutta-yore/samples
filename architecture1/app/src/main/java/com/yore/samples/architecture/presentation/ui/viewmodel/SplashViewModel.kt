@@ -1,11 +1,12 @@
-package com.yore.samples.architecture
+package com.yore.samples.architecture.presentation.ui.viewmodel
 
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.yore.samples.core.Action
-import com.yore.samples.core.Events
-import com.yore.samples.core.Page
+import com.yore.samples.core.domain.SplashUseCase
+import com.yore.samples.core.common.Action
+import com.yore.samples.core.common.Events
+import com.yore.samples.core.common.Page
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

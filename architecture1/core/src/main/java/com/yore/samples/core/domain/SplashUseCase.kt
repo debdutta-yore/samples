@@ -1,8 +1,8 @@
-package com.yore.samples.architecture
+package com.yore.samples.core.domain
 
-import com.yore.samples.core.Action
-import com.yore.samples.core.Command
-import com.yore.samples.core.Page
+import com.yore.samples.core.common.Action
+import com.yore.samples.core.common.Command
+import com.yore.samples.core.common.Page
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.yore.samples.architecture.SplashFragment"
+        android:name="com.yore.samples.architecture.presentation.ui.fragment.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.yore.samples.architecture.HomeFragment"
+        android:name="com.yore.samples.architecture.presentation.ui.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
 </navigation>

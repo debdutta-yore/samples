@@ -1,4 +1,4 @@
-package com.yore.samples.architecture
+package com.yore.samples.architecture.app
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

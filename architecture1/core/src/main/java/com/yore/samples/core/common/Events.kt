@@ -1,4 +1,4 @@
-package com.yore.samples.core
+package com.yore.samples.core.common
 
 class Events<out T>(private val content: T) {
     private var hasBeenHandled = false

@@ -1,4 +1,4 @@
-package com.yore.samples.architecture
+package com.yore.samples.architecture.presentation.ui.viewmodel
 
 import androidx.databinding.Observable
 import androidx.databinding.PropertyChangeRegistry

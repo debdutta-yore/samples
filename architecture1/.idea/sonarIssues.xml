@@ -68,6 +68,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/yore/samples/architecture/presentation/ui/fragment/SplashFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/yore/samples/architecture/presentation/ui/viewmodel/SplashViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <value>
             <set />
@@ -93,12 +103,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/com/yore/samples/core/Action.kt">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/com/yore/samples/core/SplashUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/com/yore/samples/core/Testing.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/com/yore/samples/core/common/Action.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/com/yore/samples/core/common/Command.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/com/yore/samples/core/common/Events.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/com/yore/samples/core/common/Page.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/com/yore/samples/core/domain/SplashUseCase.kt">
           <value>
             <set />
           </value>
